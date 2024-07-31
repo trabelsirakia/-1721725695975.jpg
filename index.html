@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 80%; /* Adjust width as needed */
+            margin: 0 auto; /* Center the table */
+            border-collapse: collapse;
+            height: auto; /* Adjust height based on content */
+        }
+        td {
+            padding: 0;
+            vertical-align: top;
+        }
+        .centered-table {
+            text-align: center;
+            padding: 20px 0;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .header-img {
+            width: 100%; /* Adjust width as needed */
+        }
+        .table-content {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table-content th, .table-content td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .welcome-text {
+            text-align: right;
+            padding: 10px;
+            background: white;
+        }
+        .description {
+            padding: 10px;
+            background: white;
+        }
+        .circle {
+            width: 100px; /* Adjust size as needed */
+            height: 100px; /* Adjust size as needed */
+            border-radius: 50%;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            line-height: 100px; /* Vertically center the text */
+            font-size: 36px; /* Adjust font size as needed */
+            margin: 0 auto; /* Center the circle */
+        }
+        .bottom-right-image {
+            width: 20%; /* Adjust width as needed */
+            height: auto;
+            padding: 10px; /* Add some padding if needed */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td style="width: 10%;">
+                <img src="images.png" alt="Image" class="header-img" />
+                <br>
+                Rio Yachts 58
+            </td>
+            <td class="welcome-text">
+                Bienvenue Tous
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="centered-table">
+                <img src="2.avif" alt="Image 2" style="width: 70%; height: auto;" /> <!-- Ensure width matches the table width -->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="centered-table">
+                <table class="table-content" style="width: 80%;">
+                    <thead>
+                        <tr>
+                            <th>État</th>
+                            <th>Hôte</th>
+                            <th>Largeur</th>
+                            <th>Prix</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Exemple État</td>
+                            <td>Exemple Hôte</td>
+                            <td>Exemple Largeur</td>
+                            <td>Exemple Prix</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="description">
+                Les bateaux sont des véhicules flottants conçus pour naviguer sur l'eau. Ils varient considérablement en taille, forme, et usage. Voici une description générale de quelques types de bateaux courants :
+
+                Bateaux à moteur : Équipés d'un ou plusieurs moteurs, ils sont utilisés pour des activités telles que la navigation de plaisance, la pêche, et les sports nautiques. Les bateaux à moteur peuvent être des hors-bords (avec le moteur fixé à l'arrière) ou des in-bords (avec le moteur situé à l'intérieur du bateau).
+            </td>
+        </tr>
+       
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                <img src="5.jpeg" alt="Image 5" style="width: 10%; height: auto; display: inline-block;" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="centered-table">
+                <!-- Circle with letter A -->
+                <div class="circle">A</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="centered-table">
+                <!-- Text below the circle -->
+                Bonjour à tous
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
